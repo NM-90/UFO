@@ -35,7 +35,7 @@ function updateFilters() {
     userValue=userInput.property("value")
     // 4c. Save the id of the filter that was changed as a variable.
     userId=userInput.attr("id")
-  console.log(userID)
+  console.log(userId)
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
     if (userValue != "") {
@@ -58,7 +58,7 @@ function updateFilters() {
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
     let filteredData = tableData.filter((obj) => {
-        for(userID in filters) {
+        for(userId in filters) {
             if(obj[userId] !== filters[userId]) {
               return false;
             }
@@ -70,8 +70,8 @@ function updateFilters() {
           buildTable(filteredData);
   }
   
-  // 2. Attach an event to listen for changes to each filter
-        d3.selectAll("inpute").on("change", updateFilters);
+  // 2. Attach an event to listen/change handler for changes to each filter
+        d3.selectAll("input").on("change", updateFilters);
   
   // Build the table when the page loads
   buildTable(tableData);
