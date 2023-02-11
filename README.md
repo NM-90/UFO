@@ -10,7 +10,7 @@ Expanding the analysis of UFO sightings by allowing users to filter for multiple
 
 ## Results:
 
-You can begin your search by entering either one of the filter selections on the web page.  Once you press enter, the table on the right will populate a list according to the what was entered in the filer box.  Below are some examples of what the filters produced.  
+You can begin your search by entering one or more of the filter selections from the web page.  Once you press enter, the table on the right will provide a list of the filtered criteria  Below are some examples of what the filters produced.  
 
 ### All search filters listed
 
@@ -35,4 +35,11 @@ You can begin your search by entering either one of the filter selections on the
 <img width="611" alt="sphere" src="https://user-images.githubusercontent.com/111452227/218242171-6a5b9fc0-c05a-4196-8a2a-2fdd652b4e67.png">
 
 ## Summary:
-The summary addresses one drawback of this webpage (2 pt)
+
+Drawback:
+
+Unable to see trends in chart format to see if sightings increased or decreased over time.  
+
+Recommendations:
+  * Add a feature that will allow the user to see if more than one sighting was reported by the same person 
+  * Add a feature to upload images of sighted UFOs.  
